@@ -43,6 +43,6 @@ public class TestCalculator {
         Calculator calc = new Calculator();
         int result = calc.sub(10,20);
         //assertFalse(result != -20);
-        assertEquals(result,10,"결과는 -10이어야 합니다.");
+        assertEquals(result,-10,"결과는 -10이어야 합니다.");
     }
 }
